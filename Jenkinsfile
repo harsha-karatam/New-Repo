@@ -5,7 +5,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: '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',
-                    url: 'https://github.com/user/repo.git'
+                    url: 'https://github.com/harsha-karatam/New-Repo.git'
             }
         }
         stage('Build') {
